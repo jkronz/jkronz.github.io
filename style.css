@@ -1,0 +1,48 @@
+body {
+  background-color: #F8FDF9;
+  color: #19181C;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 16px;
+}
+header {
+  display: flex;
+}
+header h1 {
+  flex: 1;
+}
+header ul {
+  flex: 2;
+}
+h1, h2, h3, h4, h5 {
+  color: #39383C;
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin: 0 auto 1rem;
+}
+header ul li {
+  float: left;
+  margin-top: 26px;
+  line-height: 26px;
+  padding: 0;
+  list-style: none;
+  vertical-align: bottom;
+}
+header ul li:after {
+  padding: 0 10px;
+  content: '|';
+  clear: both;
+}
+header ul li:last-child:after {
+  content: none;
+}
+h1 { font-size: 4rem; }
+h2 { font-size: 3.2rem; }
+h3 { font-size: 3rem;}
+h4 { font-size: 2rem;}
+h5 { font-size: 1rem;}
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: #563F78;
+}
+article p, article ul {
+  max-width: 700px;
+}
